@@ -1,0 +1,8 @@
+Prompt 1 - Build a pet shop website using  multiple html pages using html and css 
+Propmt 2 - Create about page 
+Prompt 3 - Nice now create dogs.html file and use images of dogs
+Prompt 4 - Now in cats page use different and unique images for website 
+Prompt 5 - Done now create products page and link with at bottom of website shop all products 
+Propmt 6 - Recreate the complete products.html with the updated images
+Prompt 7 - Recreate products page  and add new diffrerent images on every products  choose correct images only
+Prompt 8 - Now make final contact page 

@@ -1,0 +1,779 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | Paw Haven</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- Navigation -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                🐾 Paw Haven
+            </a>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="dogs.html">Dogs</a>
+                </li>
+
+                <li>
+                    <a href="cats.html">Cats</a>
+                </li>
+
+                <li>
+                    <a href="products.html" class="active">Products</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- Products Hero -->
+
+    <section class="products-hero">
+
+        <div class="products-hero-content">
+
+            <p class="hero-small">
+                PAWSOME PRODUCTS
+            </p>
+
+
+            <h1>
+
+                Everything Your Pet
+
+                <span>Needs in One Place</span>
+
+            </h1>
+
+
+            <p>
+
+                Explore our collection of quality food,
+                toys, accessories and grooming essentials
+                for your favorite companions.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Category Navigation -->
+
+    <section class="product-categories">
+
+        <div class="product-category-buttons">
+
+            <a href="#dog-products">
+                🐶 Dog Products
+            </a>
+
+            <a href="#cat-products">
+                🐱 Cat Products
+            </a>
+
+            <a href="#food">
+                🥗 Food
+            </a>
+
+            <a href="#toys">
+                🎾 Toys
+            </a>
+
+            <a href="#grooming">
+                ✂️ Grooming
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Dog Products -->
+
+    <section class="all-products-section" id="dog-products">
+
+        <div class="section-heading">
+
+            <p>FOR YOUR BEST FRIEND</p>
+
+            <h2>Dog Products</h2>
+
+        </div>
+
+
+        <div class="all-products-grid">
+
+
+            <!-- Product -->
+
+            <div class="shop-product-card">
+
+                <div class="shop-product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=700&q=85"
+                        alt="Dog food"
+                    >
+
+                    <span class="sale-badge">
+                        Popular
+                    </span>
+
+                </div>
+
+
+                <div class="shop-product-info">
+
+                    <span class="product-tag">
+                        DOG FOOD
+                    </span>
+
+                    <h3>Premium Dog Food</h3>
+
+                    <p>
+                        Balanced nutrition for healthy,
+                        active dogs.
+                    </p>
+
+
+                    <div class="shop-price">
+
+                        <strong>₹699</strong>
+
+                        <button>
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Product -->
+
+            <div class="shop-product-card">
+
+                <div class="shop-product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1535294435445-d7249524ef2e?auto=format&fit=crop&w=700&q=85"
+                        alt="Dog toy"
+                    >
+
+                </div>
+
+
+                <div class="shop-product-info">
+
+                    <span class="product-tag">
+                        DOG TOYS
+                    </span>
+
+                    <h3>Interactive Dog Toy</h3>
+
+                    <p>
+                        Keep your dog active and
+                        entertained every day.
+                    </p>
+
+
+                    <div class="shop-price">
+
+                        <strong>₹349</strong>
+
+                        <button>
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Product -->
+
+            <div class="shop-product-card">
+
+                <div class="shop-product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=85"
+                        alt="Dog collar"
+                    >
+
+                </div>
+
+
+                <div class="shop-product-info">
+
+                    <span class="product-tag">
+                        ACCESSORIES
+                    </span>
+
+                    <h3>Premium Dog Collar</h3>
+
+                    <p>
+                        Comfortable and stylish collar
+                        for everyday walks.
+                    </p>
+
+
+                    <div class="shop-price">
+
+                        <strong>₹299</strong>
+
+                        <button>
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Product -->
+
+            <div class="shop-product-card">
+
+                <div class="shop-product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1560807707-8cc77767d783?auto=format&fit=crop&w=700&q=85"
+                        alt="Dog treats"
+                    >
+
+                </div>
+
+
+                <div class="shop-product-info">
+
+                    <span class="product-tag">
+                        TREATS
+                    </span>
+
+                    <h3>Healthy Dog Treats</h3>
+
+                    <p>
+                        Delicious rewards for training
+                        and special moments.
+                    </p>
+
+
+                    <div class="shop-price">
+
+                        <strong>₹249</strong>
+
+                        <button>
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Cat Products -->
+
+    <section class="all-products-section alternate-section" id="cat-products">
+
+        <div class="section-heading">
+
+            <p>FOR YOUR FELINE FRIEND</p>
+
+            <h2>Cat Products</h2>
+
+        </div>
+
+
+        <div class="all-products-grid">
+
+
+            <!-- Product -->
+
+            <div class="shop-product-card">
+
+                <div class="shop-product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=700&q=85"
+                        alt="Cat food"
+                    >
+
+                    <span class="sale-badge">
+                        Popular
+                    </span>
+
+                </div>
+
+
+                <div class="shop-product-info">
+
+                    <span class="product-tag">
+                        CAT FOOD
+                    </span>
+
+                    <h3>Premium Cat Food</h3>
+
+                    <p>
+                        Nutritious meals for healthy
+                        and energetic cats.
+                    </p>
+
+
+                    <div class="shop-price">
+
+                        <strong>₹599</strong>
+
+                        <button>
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Product -->
+
+            <div class="shop-product-card">
+
+                <div class="shop-product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1545249390-6bdfa286032f?auto=format&fit=crop&w=700&q=85"
+                        alt="Cat toy"
+                    >
+
+                </div>
+
+
+                <div class="shop-product-info">
+
+                    <span class="product-tag">
+                        CAT TOYS
+                    </span>
+
+                    <h3>Interactive Cat Toy</h3>
+
+                    <p>
+                        Fun and stimulating toys for
+                        curious cats.
+                    </p>
+
+
+                    <div class="shop-price">
+
+                        <strong>₹249</strong>
+
+                        <button>
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Product -->
+
+            <div class="shop-product-card">
+
+                <div class="shop-product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&w=700&q=85"
+                        alt="Cat bed"
+                    >
+
+                </div>
+
+
+                <div class="shop-product-info">
+
+                    <span class="product-tag">
+                        COMFORT
+                    </span>
+
+                    <h3>Cozy Cat Bed</h3>
+
+                    <p>
+                        A soft and comfortable place
+                        for your cat to rest.
+                    </p>
+
+
+                    <div class="shop-price">
+
+                        <strong>₹799</strong>
+
+                        <button>
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Product -->
+
+            <div class="shop-product-card">
+
+                <div class="shop-product-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?auto=format&fit=crop&w=700&q=85"
+                        alt="Cat grooming"
+                    >
+
+                </div>
+
+
+                <div class="shop-product-info">
+
+                    <span class="product-tag">
+                        GROOMING
+                    </span>
+
+                    <h3>Cat Grooming Kit</h3>
+
+                    <p>
+                        Essential grooming tools for
+                        a clean and healthy coat.
+                    </p>
+
+
+                    <div class="shop-price">
+
+                        <strong>₹449</strong>
+
+                        <button>
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Food Section -->
+
+    <section class="food-highlight" id="food">
+
+        <div class="food-content">
+
+            <p class="hero-small">
+                HEALTHY PETS START WITH GOOD FOOD
+            </p>
+
+            <h2>
+                Nutrition They
+                <span>Can Count On</span>
+            </h2>
+
+            <p>
+                Give your pets nutritious meals and tasty
+                treats made to support their everyday
+                health and happiness.
+            </p>
+
+            <a href="#dog-products" class="btn primary-btn">
+                Explore Food
+            </a>
+
+        </div>
+
+
+        <div class="food-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=900&q=85"
+                alt="Pet food"
+            >
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Toys Section -->
+
+    <section class="toys-section" id="toys">
+
+        <div class="section-heading">
+
+            <p>PLAY TIME</p>
+
+            <h2>Fun Starts Here 🎾</h2>
+
+        </div>
+
+
+        <div class="toy-cards">
+
+
+            <div class="toy-card">
+
+                <div>
+                    🧸
+                </div>
+
+                <h3>Soft Toys</h3>
+
+                <p>
+                    Perfect for cuddles and
+                    playful moments.
+                </p>
+
+            </div>
+
+
+            <div class="toy-card">
+
+                <div>
+                    🎾
+                </div>
+
+                <h3>Interactive Toys</h3>
+
+                <p>
+                    Keep pets mentally active
+                    and entertained.
+                </p>
+
+            </div>
+
+
+            <div class="toy-card">
+
+                <div>
+                    🪀
+                </div>
+
+                <h3>Fun Accessories</h3>
+
+                <p>
+                    Make everyday playtime
+                    more exciting.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Grooming -->
+
+    <section class="grooming-section" id="grooming">
+
+        <div class="grooming-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=900&q=85"
+                alt="Pet grooming"
+            >
+
+        </div>
+
+
+        <div class="grooming-content">
+
+            <p class="hero-small">
+                PET CARE
+            </p>
+
+            <h2>
+                Keep Them
+                <span>Fresh & Happy</span>
+            </h2>
+
+            <p>
+                Regular grooming keeps your pet comfortable,
+                clean and looking their best.
+            </p>
+
+            <a href="contact.html" class="btn primary-btn">
+                Ask About Grooming
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Bottom CTA -->
+
+    <section class="products-cta">
+
+        <p class="hero-small">
+            LOVE YOUR PET. SHOP WITH PAW HAVEN.
+        </p>
+
+        <h2>
+            Everything They Need,
+            All in One Place.
+        </h2>
+
+        <p>
+            Quality products for happier pets and
+            happier pet parents.
+        </p>
+
+        <a href="contact.html" class="btn primary-btn">
+            Contact Us
+        </a>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-content">
+
+
+            <div>
+
+                <h2>🐾 Paw Haven</h2>
+
+                <p>
+                    Your trusted destination for happy,
+                    healthy and loved pets.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+
+                <a href="about.html">About</a>
+
+                <a href="dogs.html">Dogs</a>
+
+                <a href="cats.html">Cats</a>
+
+                <a href="products.html">Products</a>
+
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>📍 Mohali, Punjab</p>
+
+                <p>📞 +91 98765 43210</p>
+
+                <p>✉️ hello@pawhaven.com</p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 Paw Haven. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html> 
+
