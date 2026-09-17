@@ -3225,7 +3225,57 @@ footer {
 
 }
 
+/* =========================
+   MOBILE NAVBAR
+========================= */
 
+@media (max-width: 768px) {
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .logo {
+        margin-right: auto;
+    }
+
+    /* Hide checkbox */
+    #menu-toggle {
+        display: none;
+    }
+
+    /* Hamburger icon */
+    .menu-icon {
+        display: block;
+        margin-left: auto;
+        cursor: pointer;
+        font-size: 28px;
+        line-height: 1;
+        text-align: right;
+    }
+
+    /* Mobile menu */
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    /* Show menu when hamburger is clicked */
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+}
 
 
 
