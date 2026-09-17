@@ -442,12 +442,12 @@ footer {
 }
 
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
 
     .navbar {
         flex-direction: column;
         gap: 20px;
-    }
+    } */
 
     .nav-links {
         flex-wrap: wrap;
@@ -473,7 +473,7 @@ footer {
         grid-template-columns: 1fr;
         gap: 30px;
     }
-}
+
 
 
 /* =========================
@@ -3149,132 +3149,125 @@ footer {
 
 }
 
-/* ============================= */
-/* MOBILE NAVIGATION */
-/* ============================= */
+
+
+
+/* ========================================
+   MOBILE NAVBAR - iPHONE / MOBILE
+======================================== */
 
 #menu-toggle {
     display: none;
 }
 
+/* Hide hamburger on desktop */
 .menu-icon {
     display: none;
-    font-size: 28px;
-    cursor: pointer;
-    line-height: 1;
 }
 
 
-/* ============================= */
-/* TABLET & MOBILE */
-/* ============================= */
+@media (max-width: 650px) {
 
-@media (max-width: 768px) {
-
+    /* Navbar stays in one horizontal row */
     .navbar {
+        width: 100%;
+        max-width: 1200px;
+        min-height: 64px;
+
+        padding: 14px 20px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
         position: relative;
     }
 
-    /* Show hamburger */
-    .menu-icon {
+
+    /* Logo on LEFT */
+    .logo {
+        font-size: 22px;
         display: block;
-        padding: 8px;
-        cursor: pointer;
+        flex-shrink: 0;
     }
 
-    /* Mobile menu */
-    .nav-links {
-        position: absolute;
-        top: calc(100% + 10px);
-        left: 0;
-        right: 0;
 
+    /* Hamburger on RIGHT */
+    .menu-icon {
+        display: flex;
+
+        width: 40px;
+        height: 40px;
+
+        align-items: center;
+        justify-content: center;
+
+        margin-left: auto;
+        margin-top: -50px;
+
+        font-size: 28px;
+        line-height: 1;
+
+        color: #8b5e3c;
+
+        cursor: pointer;
+
+        position: relative;
+        z-index: 1001;
+    }
+
+
+    /* Hide normal navigation links */
+    .nav-links {
         display: none;
+
+        position: absolute;
+
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+
+        margin: 0;
+        padding: 20px 0;
+
+        background: #fffaf5;
+
+        border-top: 1px solid #eee2d5;
+        border-bottom: 1px solid #eee2d5;
+
+        list-style: none;
+
         flex-direction: column;
         align-items: center;
 
-        gap: 0;
-        padding: 12px 0;
-
-        background: #ffffff;
-        border-radius: 12px;
-
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
+        gap: 18px;
 
         z-index: 1000;
     }
 
-    /* Menu links */
+
+    /* Open menu when hamburger is clicked */
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+
+
+    /* Mobile links */
     .nav-links li {
         width: 100%;
         text-align: center;
-        list-style: none;
     }
 
-    .nav-links li a {
+
+    .nav-links a {
         display: block;
-        width: 100%;
-        padding: 13px 20px;
-        box-sizing: border-box;
+        padding: 8px 20px;
+
+        font-size: 16px;
     }
 
-    /* Open menu */
-    #menu-toggle:checked ~ .nav-links {
-        display: flex;
-    }
-
-}
-
-/* =========================
-   MOBILE NAVBAR
-========================= */
-
-@media (max-width: 768px) {
-
-    .navbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-        padding: 15px 20px;
-    }
-
-    .logo {
-        margin-right: auto;
-    }
-
-    /* Hide checkbox */
-    #menu-toggle {
-        display: none;
-    }
-
-    /* Hamburger icon */
-    .menu-icon {
-        display: block;
-        margin-left: auto;
-        cursor: pointer;
-        font-size: 28px;
-        line-height: 1;
-        text-align: right;
-    }
-
-    /* Mobile menu */
-    .nav-links {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
-        margin: 0;
-    }
-
-    /* Show menu when hamburger is clicked */
-    #menu-toggle:checked ~ .nav-links {
-        display: flex;
-    }
 }
 
 
