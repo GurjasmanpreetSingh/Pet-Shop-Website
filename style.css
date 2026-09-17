@@ -3249,3 +3249,91 @@ footer {
 
 
 
+
+
+
+/* ========================================
+   MOBILE NAVBAR
+======================================== */
+
+@media (max-width: 650px) {
+
+    /* Keep logo and hamburger on same row */
+    .navbar {
+        position: relative;
+        width: 100%;
+        min-height: 64px;
+        padding: 12px 20px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        box-sizing: border-box;
+    }
+
+    /* Hamburger on right */
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 40px;
+        height: 40px;
+
+        margin-left: auto;
+
+        font-size: 28px;
+        line-height: 1;
+
+        color: #8b5e3c;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    /* Hide menu */
+    .nav-links {
+        display: none;
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+        box-sizing: border-box;
+
+        margin: 0;
+        padding: 20px 0;
+
+        background: #fffaf5;
+
+        border-top: 1px solid #eee2d5;
+        border-bottom: 1px solid #eee2d5;
+
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+
+        z-index: 9999;
+    }
+
+    /* Open menu */
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+}
+
+
+
